@@ -16,21 +16,24 @@
 </div><!-- /.starter-template -->
 
 <div>
-    <h2><a name="me"></a>Me</h2>
+    <h2 style="margin-top:50px;"><a name="me"></a>
+      <i class="glyphicon glyphicon-user"></i> Me</h2>
     {% filter markdown -%}
     {% block me %}{% endblock me %}
     {%- endfilter %}
 </div>
 
 <div>
-    <h2><a name="myproject"></a>My Project</h2>
+    <h2 style="margin-top:50px;"><a name="myproject"></a>
+      <i class="glyphicon glyphicon-briefcase"></i> My Project</h2>
     {% filter markdown -%}
     {% block myproject %}{% endblock myproject %}
     {%- endfilter %}
 </div>
 
 <div>
-    <h2><a name="myresearch"></a>My Research</h2>
+    <h2 style="margin-top:50px;"><a name="myresearch"></a>
+      <i class="glyphicon glyphicon-list"></i> My Research</h2>
     {% filter markdown -%}
     {% block myresearch %}{% endblock myresearch %}
     {%- endfilter %}
