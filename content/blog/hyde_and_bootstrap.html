@@ -1,5 +1,5 @@
 ---
-title: Hyde and Bootstrap (and github.io)
+title: Hyde and Bootstrap
 description: >
     Hyde and Bootstrap.
 created: !!timestamp '2014-09-01 10:03:00'
@@ -14,7 +14,7 @@ Just moving to github.io :)
 
 {%- endmark %}
 
-
+{% filter markdown|typogrify -%}
 Github provide a very good platform to have your own static page. Using static page means that you don't need to think about:
 
 * database
@@ -31,3 +31,4 @@ Oh, did I say that you don't need to write HTML to get HTML? Yes, you can use ma
 
 I can't wait to hack around, look for any possibility to make this website cooler.
 Right now, I've just add disqus to every post in my blog. This is cool :)
+{%- endfilter %}

@@ -1,0 +1,36 @@
+{# Fullwidth template #}
+
+{% extends "topbar.j2" %}
+
+{% block container %}
+
+<div class="starter-template" style="padding: 40px 15px; text-align:center;">
+  {% filter markdown -%}
+    {% block headline %}{% endblock headline %}
+  {%- endfilter %}
+  <div class="lead">
+    {% filter markdown -%}
+      {% block leadtext %}{% endblock leadtext %}
+    {%- endfilter %}
+  </div>
+</div><!-- /.starter-template -->
+
+<div>
+    <a name="coder">&nbsp;</a>
+    <h2 style="margin-top:50px;">
+      <i class="glyphicon glyphicon-globe"></i> Web Programmer</h2>
+    {% filter markdown -%}
+    {% block coder %}{% endblock coder %}
+    {%- endfilter %}
+</div>
+
+<div>
+    <a name="tutor">&nbsp;</a>
+    <h2 style="margin-top:50px;">
+      <i class="glyphicon glyphicon-briefcase"></i> Personal Tutor</h2>
+    {% filter markdown -%}
+    {% block tutor %}{% endblock tutor %}
+    {%- endfilter %}
+</div>
+
+{% endblock container %}

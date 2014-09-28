@@ -26,6 +26,9 @@ context:
             - title: Blog
               type: node
               url: blog
+            - title: Service
+              type: page
+              url: service.html
         sidebar:
             - title: One
               url: one.html
@@ -49,3 +52,18 @@ tagger:
             archive_extension: html
             meta:
                 listable: false
+markdown:
+    extensions:
+        - extra
+        - abbr
+        - attr_list
+        - def_list
+        - fenced_code
+        - footnotes
+        - tables
+        - smart_strong
+        - admonition
+        - codehilite
+        - headerid
+        - meta
+        - nl2br

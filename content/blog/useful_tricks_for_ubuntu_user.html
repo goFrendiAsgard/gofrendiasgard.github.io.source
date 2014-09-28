@@ -10,11 +10,11 @@ tags:
 {% mark excerpt -%}
 
 Ubuntu is my favorite linux distro.
-I can be a geek while still maintain my humanity :)
+It let me to be a geek while still maintain my humanity :)
 
 {%- endmark %}
 
-
+{% filter markdown|typogrify -%}
 __Disclaimer:__ This tricks might not be suitable for everyone (and honestly I don't care if they does't suitable for you)
 
 # Install several softwares
@@ -113,3 +113,4 @@ I like to be able to access my local machine as `gofrendi.dev`. My project No-CM
 # Use Newest wine
 
     https://www.winehq.org/download/ubuntu
+{%- endfilter %}

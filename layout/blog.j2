@@ -4,6 +4,10 @@
 {% block container -%}
 <article>
 
+<link rel="stylesheet" href="/highlight/styles/default.css">
+<script src="/hightlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <h1>
     <a href="{{ content_url(resource.url) }}">
         {{ resource.meta.title }}
@@ -21,11 +25,11 @@
 </div>
 {% endif %}
 <hr>
-{% filter markdown|typogrify -%}
+
 {% mark post -%}
 {% block post -%}{%- endblock %}
 {%- endmark %}
-{%- endfilter %}
+
 </article>
 
 
