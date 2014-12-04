@@ -1,5 +1,5 @@
-layout/deploy
-deploy
-*.hyde_deps
-*.DS_Store
-*.log
+*~
+*.pyc
+output
+_build
+_nb_header.html
