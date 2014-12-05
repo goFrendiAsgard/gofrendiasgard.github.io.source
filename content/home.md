@@ -3,6 +3,10 @@ date: 2014-12-04
 comments: true
 ---
 
+<!-- PELICAN_BEGIN_SUMMARY -->
+About me
+<!-- PELICAN_END_SUMMARY -->
+
 Me
 --
 
