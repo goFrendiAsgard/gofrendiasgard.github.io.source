@@ -24,7 +24,7 @@ Let's think LED as motor. If you have 2 motors, and one of them is switched off,
 
 The schema is as follows:
 
-{% img ../../../../../images/gunvarrel-02.png %}
+{% img /images/gunvarrel-02.png %}
 
 HC-SR04 will operate under 5 volt voltage. Thus, I simply connect 5 volt VCC from arduino board to VCC pin of HC-SR04.
 
