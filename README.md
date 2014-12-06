@@ -15,7 +15,7 @@ Requirements
     sudo apt-get install pandoc
 
     # generate content 
-    pelican content
+    pelican content -s publishconf.py
 
     # start server
     cd output

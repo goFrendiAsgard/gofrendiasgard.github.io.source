@@ -8,8 +8,6 @@ SITENAME = u'Go Frendi\'s Personal Web'
 SITESUBTITLE = u'Python, Math, Life, and Me'
 SITEURL = '' # change in publishconf.py
 
-LOGO = 'be-rational-get-real-me.png'
-
 # Times and dates
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
 TIMEZONE = 'Asia/Jakarta'
@@ -22,7 +20,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html'),
              ('Home Page', '/blog/2014/12/04/home')]
-NEWEST_FIRST_ARCHIVES = False
+NEWEST_FIRST_ARCHIVES = True
 
 #Github include settings
 GITHUB_USER = 'goFrendiAsgard'
@@ -83,12 +81,12 @@ TWITTER_USER = 'gofrendiasgard'
 GOOGLE_PLUS_USER = 'gofrendiasgard'
 GOOGLE_PLUS_ONE = True
 GOOGLE_PLUS_HIDDEN = False
-FACEBOOK_LIKE = False
+FACEBOOK_LIKE = True
 TWITTER_TWEET_BUTTON = True
 TWITTER_LATEST_TWEETS = True
 TWITTER_FOLLOW_BUTTON = True
 TWITTER_TWEET_COUNT = 3
-TWITTER_SHOW_REPLIES = 'false'
+TWITTER_SHOW_REPLIES = 'true'
 TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
 
