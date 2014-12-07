@@ -1,7 +1,7 @@
 Title: Hello world
 date: 2014-12-04
 comments: true
-slug: helloworld
+slug: helloworld, ipython
 ---
 
 <!-- PELICAN_BEGIN_SUMMARY -->
