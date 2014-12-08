@@ -9,3 +9,4 @@ IPython Notebook for presentation.
 <!-- PELICAN_END_SUMMARY -->
 
 {% notebook presentation.ipynb %}
+{% img /images/ipython-presentation.png %}

@@ -31,9 +31,27 @@ HC-SR04 will operate under 5 volt voltage. Thus, I simply connect 5 volt VCC fro
 HC-SR04 also has another 3 pins. GND that should be connected to arduino's ground, ECHO, and TRIG.
 Whenever you send 3 volt to ECHO, HC-SR04 will emmit ultrasonic wave. You can catch the echo by read on ECHO pin.
 
-Pin 1-13 in arduino has 3 volt voltage. However, the LED should only accept 2 volt. This is why you need a resistor.
+Pin 1-13 in arduino has 3 volt voltage and 0.03 ampere current. However, the LED should only accept 2 volt. 
+This is why you need a 100 ohm resistor. Please take a look at these calculations:
 
-Here is the code:
+$V_{Total} = V_{LED} + V_{Resistor}$
+
+$5 volt = 2 volt + V_{Resistor}$
+
+$V_{Resistor} = 1 volt$
+
+Since $V = I * R$, then
+
+$R_{Resistor} = \frac{V_{Resistor}}{I}$
+
+$R_{Resistor} = \frac{1 volt}{0.03 ampere}$
+
+$R_{Resistor} = 100 \Omega$
+
+It is really worth for anyone who want to mess up with electronics stuff to know about `Kirchoff Voltage Law` and `Kirchoff Current Law`.
+Those two laws are not usually discussed in any instructables.
+
+And here is the code:
 ```
     /*
      * Gunvarrel v 0.0.2
