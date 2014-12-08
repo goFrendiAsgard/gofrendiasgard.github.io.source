@@ -14,7 +14,7 @@ Example
 
 Output
 ------
-<iframe width="640" height="480" src="http://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe width="640" height="480" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 [1] https://gist.github.com/jamieowen/2063748
 """
