@@ -43,7 +43,7 @@ def youtube(preprocessor, tag, markup):
         youtube_out = """
             <div class="videobox">
                 <iframe width="{width}" height="{height}"
-                        src='http://www.youtube.com/v/{youtube_id}'
+                        src='//www.youtube.com/v/{youtube_id}'
                         frameborder='0'
                         webkitAllowFullScreen mozallowfullscreen allowFullScreen>
                 </iframe>
