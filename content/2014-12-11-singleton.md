@@ -1,5 +1,5 @@
-Title: Hello world
-date: 2014-12-04
+Title: Singleton
+date: 2014-12-11
 comments: true
 slug: python
 ---
