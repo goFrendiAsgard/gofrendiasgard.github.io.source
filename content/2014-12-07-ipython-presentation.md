@@ -4,9 +4,5 @@ comments: true
 slug: ipython
 ---
 
-<!-- PELICAN_BEGIN_SUMMARY -->
-IPython Notebook for presentation.
-<!-- PELICAN_END_SUMMARY -->
-
 {% notebook presentation.ipynb %}
 {% img /images/ipython-presentation.png %}

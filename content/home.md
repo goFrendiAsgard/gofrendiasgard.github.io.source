@@ -3,13 +3,12 @@ date: 2014-12-04
 comments: true
 ---
 
-<!-- PELICAN_BEGIN_SUMMARY -->
-About me
-<!-- PELICAN_END_SUMMARY -->
+
 
 Me
 --
 
+<!-- PELICAN_BEGIN_SUMMARY -->
 My name is Go Frendi Gunawan. an intelligent being living in Malang, Jawa Timur, Indonesia, Earth, Solar System.
 
 I work as a lecturer at [STIKI Malang](http://stiki.ac.id/).
@@ -17,6 +16,8 @@ I work as a lecturer at [STIKI Malang](http://stiki.ac.id/).
 I like to code. My favorite programming language is Python, but I'm not stop there. 
 Right now, I try to learn scala and find out what functional-programming really is.
 I can also speak PHP, javascript, pascal, C, java, English, and Bahasa.
+
+<!-- PELICAN_END_SUMMARY -->
 
 I also like computer science. My favorite topic is data mining, machine learning, and a bit software engineering.
 Sometime I also like to have light discussion related to philosophy and quantum-physics (minus the rocket science).

@@ -5,12 +5,10 @@ slug: arduino
 ---
 
 <!-- PELICAN_BEGIN_SUMMARY -->
-I have just play up with arduino, HC-SR04 sonar sensor.
-<!-- PELICAN_END_SUMMARY -->
-
 Thanks to project board and arduino. Nowaday, anyone can build their own robot easily.
 There are many instruction to do that in [instructables](http://www.instructables.com/tag/type-id/category-technology/channel-arduino/)
 Very cool, just do exactly as the instruction and you can make your very own high-tech toys.
+<!-- PELICAN_END_SUMMARY -->
 
 As a newbie, today I try to play around with HC-SR04 sonar sensor. I plan to build a very simple robot that can detect obstacle by using sonar.
 I use LED since DC Motor is a bit complicated and dangerous for newbie (I mean you can damage the arduino board itself if you set it wrong).

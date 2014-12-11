@@ -4,14 +4,15 @@ comments: true
 slug: ubuntu
 ---
 
-<!-- PELICAN_BEGIN_SUMMARY -->
-Ubuntu tricks for and from me
-<!-- PELICAN_END_SUMMARY -->
+
+
+
 
 Install several softwares
 -------------------------
+<!-- PELICAN_BEGIN_SUMMARY -->
 The good thing about using ubuntu (and any other linux distribution) is you don't need to remember what button should be clicked when installing your softwares.
-
+<!-- PELICAN_END_SUMMARY -->
     
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get install python-software-properties
