@@ -25,7 +25,7 @@ class Singleton:
             raise Singleton.__instance
         Singleton.__instance = self
 
-def make_instance(name = '' ):
+def make_instance(name = "" ):
     try:
         instance = Singleton(name)
     except Singleton, s:
@@ -56,7 +56,7 @@ a.py
 ```
 from singleton import make_instance
 
-a = make_instance('agumon')
+a = make_instance("agumon")
 ```
 
 b.py
@@ -64,7 +64,7 @@ b.py
 ```
 from singleton import make_instance
 
-b = make_instance('birdramon')
+b = make_instance("birdramon")
 ```
 
 c.py
@@ -74,7 +74,7 @@ from singleton import make_instance
 from a import a
 from b import b
 
-c = make_instance('chakumon')
+c = make_instance("chakumon")
 
 print(a,b,c)
 print(a.name, b.name, c.name)
